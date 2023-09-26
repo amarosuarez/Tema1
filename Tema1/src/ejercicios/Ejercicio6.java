@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio6 {
 
 	public static void main(String[] args) {
-		// Creamos las dos variables para num1, num2 y para almacenar las diferentes operaciones
+		// Creamos las dos variables para num1, num2 para almacenar las diferentes operaciones
 		int num1, num2, suma, resta, mult;
 		float div;
 				
