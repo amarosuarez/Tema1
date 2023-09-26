@@ -29,8 +29,6 @@ public class Ejercicio4 {
 		
 		// Cerramos el objeto Scanner
 		sc.close();
-		
-		
 	}
 	
 }
