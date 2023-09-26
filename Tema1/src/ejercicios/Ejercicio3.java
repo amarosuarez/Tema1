@@ -31,7 +31,6 @@ public class Ejercicio3 {
 		
 		// Cerramos el objeto Scanner
 		sc.close();
-		
 	}
 	
 }
