@@ -19,6 +19,7 @@ public class Ejercicio3 {
 		// Confirmamos que el número sea par
 		esPar = num % 2 == 0 ;
 		
+		// Imprimimos por pantalla
 		System.out.println(esPar ? "Su número es par" : "Su número es impar");
 		
 		// Cerramos el objeto Scanner
