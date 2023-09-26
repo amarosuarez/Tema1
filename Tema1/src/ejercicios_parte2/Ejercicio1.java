@@ -5,39 +5,38 @@ import java.util.Scanner;
 public class Ejercicio1 {
 	
 	public static void main(String[] args) {
-		// Definimos las variables
-		int kg, option;
-		float importe, beneficios = 0;
+		// Definimos las variables donde se almacenarán los kilos de manzana y de peras
+		float kgManzanas, kgPeras;
 		
-		// Creamos el objeto Scanner
+		// Definimos la variable donde se almacenará los beneficios
+		float beneficios;
+		
+		// Definimos las constantes con el precio del kilo de manzana y de peras
+		final float PRECIO_MANZANAS = 2.35f;
+		final float PRECIO_PERAS = 1.95f;
+		
+		// Creamos el objeto Scanner para leer la entrada del teclado
 		Scanner sc = new Scanner(System.in);
 		
-		// Pedimos al usuario que elija entre manzanas o peras
-		System.out.println("Escriba 1 para Manzanas o 2 para Peras");
-		option = sc.nextInt();
+		// Le pedimos al usuario los kilos de manzana
+		System.out.println("Introduzca los kilos de manzana vendidos:");
 		
-		// Pedimos al usuario el número de kilos
-		System.out.println("Introduzca el número de kilos: ");
-		kg = sc.nextInt();
+		// Leemos los kilos de manzana del teclado
+		kgManzanas = sc.nextFloat();
 		
-		// Dependiendo de la elección del usuario el importe será diferente
-		switch (option) {
-			
-			case 1:
-				importe = 2.35f;
-				beneficios = (float) kg * importe;
-				break;
+		// Le pedimos al usuario los kilos de peras
+		System.out.println("Introduzca los kilos de peras vendidos:");
 	
-			case 2:
-				importe = 1.95f;
-				beneficios = (float) kg * importe;
-				break;
-		}
+		// Leemos los kilos de peras del teclado
+		kgPeras = sc.nextFloat();
 		
-		// Mostramos los beneficios por pantalla
-		System.out.println("Los beneficios serán: " + String.valueOf(beneficios).replace(".",",") + " €");
+		// Calculamos los beneficios
+		beneficios = (kgManzanas * PRECIO_MANZANAS) + (kgPeras * PRECIO_PERAS);
 		
-		// Cerramos el Scanner
+		// Imprimimos los beneficios por pantalla
+		System.out.println("Los beneficios son de: " + beneficios);
+		
+		// Cerramos el objeto Scanner
 		sc.close();
 	}
 	

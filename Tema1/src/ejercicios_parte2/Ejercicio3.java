@@ -5,21 +5,25 @@ import java.util.Scanner;
 public class Ejercicio3 {
 
 	public static void main(String[] args) {
-		// Declaramos las variables
+		// Declaramos la variable donde se almacenará si es par o no
 		boolean esPar;
+		
+		// Definimos la variable donde se almacenará el número introducido por el usuario
 		int num;
 		
-		// Creamos el objeto Scanner
+		// Creamos el objeto Scanner para leer la entrada del teclado
 		Scanner sc = new Scanner(System.in);
 		
 		// Le pedimos al usuario un número
 		System.out.println("Introduzca un número:");
+		
+		// Leemos el número del teclado
 		num = sc.nextInt();
 		
 		// Confirmamos que el número sea par
-		esPar = num % 2 == 0 ;
+		esPar = num % 2 == 0;
 		
-		// Imprimimos por pantalla
+		// Imprimimos el mensaje por pantalla
 		System.out.println(esPar ? "Su número es par" : "Su número es impar");
 		
 		// Cerramos el objeto Scanner

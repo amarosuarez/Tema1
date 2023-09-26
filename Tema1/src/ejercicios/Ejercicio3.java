@@ -5,26 +5,31 @@ import java.util.Scanner;
 public class Ejercicio3 {
 
 	public static void main(String[] args) {
-		//Creamos las variables añoActual, añoNacimiento y edad
+		// Creamos las variables donde se almacenarán el año actual, el año de nacimiento y la edad
 		int anho, añoNacimiento, edad;
 				
-		//Creamos el objeto Scanner
+		// Creamos el objeto Scanner para leer la entrada del teclado
 		Scanner sc = new Scanner(System.in);
 		
-		/* A continuación, le pediremos al usuario el año actual y en el año en el que nació
-		  y leeremos cada año en una variable diferente.*/
+		// Le pedimos al usuario el año actual
 		System.out.println("¿En qué año estamos?");
+		
+		// Leemos el año actual del teclado
 		anho = sc.nextInt();
+		
+		// Le pedimos al usuario su año de nacimiento
 		System.out.println("¿En qué año naciste?");
+		
+		// Leemos el año de nacimiento del teclado
 		añoNacimiento = sc.nextInt();
 		
-		//Calculamos la edad del usuario
+		// Calculamos la edad del usuario
 		edad = anho - añoNacimiento;
 		
-		//Imprimimos la edad por pantalla
+		// Imprimimos la edad por pantalla
 		System.out.println("Tienes " + edad + " años");
 		
-		//Cerramos el Scanner
+		// Cerramos el objeto Scanner
 		sc.close();
 		
 	}
