@@ -37,7 +37,6 @@ public class Ejercicio3 {
 		
 		// Cerramos el Scanner
 		sc.close();
-		
 	}
 	
 }
