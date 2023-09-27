@@ -5,15 +5,18 @@ import java.util.Scanner;
 public class Ejercicio1 {
 	
 	public static void main(String[] args) {
+		// Definimos la constante donde se almacenará el precio de las manzanas
+		final float PRECIO_MANZANAS = 2.35f;
+		
+		// Definimos la constante donde se almacenará el precio de las peras
+		final float PRECIO_PERAS = 1.95f;
+				
+		
 		// Definimos las variables donde se almacenarán los kilos de manzana y de peras
 		float kgManzanas, kgPeras;
 		
 		// Definimos la variable donde se almacenará los beneficios
 		float beneficios;
-		
-		// Definimos las constantes con el precio del kilo de manzana y de peras
-		final float PRECIO_MANZANAS = 2.35f;
-		final float PRECIO_PERAS = 1.95f;
 		
 		// Creamos el objeto Scanner para leer la entrada del teclado
 		Scanner sc = new Scanner(System.in);
