@@ -31,6 +31,8 @@ public class Ejercicio1 {
 		
 		// Cerramos el objeto Scanner
 		sc.close();
+		
+		// Amaro Suárez
 	}
 	
 }
