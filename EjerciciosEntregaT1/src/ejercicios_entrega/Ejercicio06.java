@@ -2,7 +2,7 @@ package ejercicios_entrega;
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Ejercicio06 {
 
 	public static void main(String[] args) {
 		// Definimos la variable donde se almacenarán los segundos

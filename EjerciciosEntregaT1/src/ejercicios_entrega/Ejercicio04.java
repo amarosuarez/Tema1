@@ -2,7 +2,7 @@ package ejercicios_entrega;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio04 {
 
 	public static void main(String[] args) {
 		// Definimos la variable donde se almacenará la base

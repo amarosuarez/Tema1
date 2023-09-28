@@ -2,7 +2,7 @@ package ejercicios_entrega;
 
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio03 {
 	
 	public static void main(String[] args) {
 		// Definimos la variable donde guardaremos el primer número

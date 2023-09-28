@@ -2,7 +2,7 @@ package ejercicios_entrega;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio01 {
 
 	public static void main(String[] args) {
 		// Definimos la variable donde se almacenará el número introducido por el usuario
