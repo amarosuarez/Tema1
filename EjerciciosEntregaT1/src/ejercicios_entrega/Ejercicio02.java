@@ -23,7 +23,8 @@ public class Ejercicio02 {
 		resto = num % 7;
 		
 		// Mostramos el mensaje por pantalla
-		System.out.println(resto == 0 ? "Tu número ya es múltiplo de 7" : "Tienes que sumarle " + (7 - resto) + " para que sea múltiplo de 7");
+		System.out.println(resto == 0 ? "Tu número ya es múltiplo de 7" : 
+			"Tienes que sumarle " + (7 - resto) + " para que sea múltiplo de 7");
 		
 		// Cerramos el objeto Scanner
 		sc.close();
