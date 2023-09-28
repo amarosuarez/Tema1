@@ -10,10 +10,7 @@ public class Ejercicio09 {
 		
 		// Definimos la variable donde se almacenará el segundo número
 		int num2;
-		
-		// Definimos la variable donde se almacenará true o false
-		boolean iguales;
-		
+	
 		// Creamos el objeto Scanner
 		Scanner sc = new Scanner(System.in);
 		
@@ -27,7 +24,7 @@ public class Ejercicio09 {
 		num2 = sc.nextInt();
 		
 		// Mostramos el mensaje por pantalla
-		System.out.println(iguales = num1 == num2);
+		System.out.println(num1 == num2);
 		
 		// Cerramos el objeto Scanner
 		sc.close();
