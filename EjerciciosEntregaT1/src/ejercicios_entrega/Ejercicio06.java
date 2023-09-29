@@ -33,7 +33,7 @@ public class Ejercicio06 {
 		segundos = (segundos%3600)%60;
 		
 		// Imprimimos los segundos por pantalla
-		System.out.println("Son " + horas + " horas, " + minutos + " minutos y " + segundos + " segundos");
+		System.out.println("Son " + horas + " hora/s, " + minutos + " minuto/s y " + segundos + " segundo/s");
 		
 		// Cerramos el objeto Scanner
 		sc.close();
