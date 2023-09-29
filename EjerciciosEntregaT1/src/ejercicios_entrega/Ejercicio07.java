@@ -6,19 +6,13 @@ public class Ejercicio07 {
 
 	public static void main(String[] args) {
 		// Definimos la variable donde se guardarán los milímetros
-		int milimetros;
-		
-		// Definimos la variable donde se guardarán los milímetros en centímetros
-		float milimetrosCentimetros;
+		float milimetros;
 		
 		// Definimos la variable donde se guardarán los centímetros
-		int centimetros;
+		float centimetros;
 		
 		// Definimos la variable donde se guardarán los metros
-		int metros;
-		
-		// Definimos la variable donde se guardarán los metros en centímetros
-		int metrosCentimetros;
+		float metros;
 		
 		// Definimos la variable donde se guardará la suma
 		float suma;
@@ -45,13 +39,13 @@ public class Ejercicio07 {
 		metros = sc.nextInt();
 		
 		// Pasamos los milímetros a centímetros
-		milimetrosCentimetros = (float) milimetros / 10;
+		milimetros /= 10;
 		
 		// Pasamos los metros a centímetros
-		metrosCentimetros = metros * 10;
+		metros *= 100;
 		
 		// Hacemos la suma
-		suma = (float) metrosCentimetros + centimetros + milimetrosCentimetros;
+		suma = metros + centimetros + milimetros;
 		
 		System.out.println("La suma de las tres longitudes da: " + suma + " centímetros");
 		
